@@ -2,7 +2,7 @@
 
 
 
-[![Binder](http://mybinder.org/badge_logo.svg)](https://github.com/epifanio/csw-query/master?urlpath=lab/tree/CSW-Query.ipynb)
+[![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/epifanio/csw-query/master?urlpath=lab/tree/CSW-Query.ipynb)
 
 JupyterLab is packaged with Binder repositories by default. In order to
 run a JupyterLab session, you have two options:
