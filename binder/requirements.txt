@@ -12,3 +12,4 @@ pandas
 sidecar
 jupyter_bokeh
 ipywidgets_bokeh
+geolinks
