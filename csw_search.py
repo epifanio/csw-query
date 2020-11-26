@@ -1,5 +1,9 @@
 from owslib import fes
+from owslib.fes import SortBy, SortProperty
 
+# CREDITS:
+# code derived from:
+# https://github.com/ioos/notebooks_demos/blob/master/notebooks/2016-12-19-exploring_csw.ipynb
 
 def fes_date_filter(start, stop, constraint="overlaps"):
     """
@@ -49,8 +53,6 @@ def get_csw_records(csw, filter_list, pagesize=10, maxrecords=1000):
     """Iterate `maxrecords`/`pagesize` times until the requested value in
     `maxrecords` is reached.
     """
-    from owslib.fes import SortBy, SortProperty
-
     # Iterate over sorted results.
     sortby = SortBy([SortProperty("dc:title", "ASC")])
     csw_records = {}
