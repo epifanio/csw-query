@@ -1,3 +1,5 @@
+Author: Massimo Di Stefano, massimods@met.no
+
 # CSW discovery
 
 
