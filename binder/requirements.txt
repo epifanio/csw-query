@@ -1,15 +1,13 @@
-traitlets>=4.3.1
-ipython
-pandas
-vdom
-jupyterlab_launcher>=0.5.0
+jupyter
+# vdom
+jupyterlab_launcher
 ipydatetime
-bokeh
+# bokeh
 owslib
 ipyleaflet
 xarray
 pandas
 sidecar
-jupyter_bokeh
-ipywidgets_bokeh
+# jupyter_bokeh
+# ipywidgets_bokeh
 geolinks
