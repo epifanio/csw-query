@@ -1,13 +1,15 @@
+ipywidgets
+tornado 
 jupyter
 # vdom
-jupyterlab_launcher
+# jupyterlab_launcher
 ipydatetime
 # bokeh
 owslib
 ipyleaflet
 xarray
 pandas
-sidecar
+# sidecar
 # jupyter_bokeh
 # ipywidgets_bokeh
 geolinks
